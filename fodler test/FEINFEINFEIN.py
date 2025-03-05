@@ -13,11 +13,6 @@ object = {
     "description": "funy random number",
     "parameters": {
         "type": "object",
-        "properties": {
-            "fein": {
-                "type": "integer",
-                "description": "random number between 1 and 100"
-            }
-        }
+        "properties": {}
     }
 }
