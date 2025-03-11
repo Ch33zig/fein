@@ -6,6 +6,7 @@ async def function(args: Dict[str, Any]) -> Dict[str, Any]:
     """
     random numer between 1 and 100
     """
+    print("those who know")
     return {"message": random.randint(1, 100)}
 
 object = {
