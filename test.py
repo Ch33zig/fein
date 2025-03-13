@@ -12,7 +12,7 @@ async def function(args: Dict[str, Any]) -> Dict[str, Any]:
     Returns:
         Dictionary containing the results
     """
-    return {"message": args["fein"]}
+    return json.dumps({"message": args["fein"]})
 
 object = {
     "name": "Test Script",
