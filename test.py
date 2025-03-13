@@ -12,6 +12,7 @@ async def function(args: Dict[str, Any]) -> Dict[str, Any]:
     Returns:
         Dictionary containing the results
     """
+    print("march 14")
     return {"message": args["fein"]}
 
 object = {
